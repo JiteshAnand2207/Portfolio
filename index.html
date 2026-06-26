@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Jitesh Anand, B.Tech IIoT student at NIT Kurukshetra focused on backend development, SDE internships, C/C++ systems, and practical engineering projects." />
+  <title>Jitesh Anand | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">JA</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">B.Tech IIoT @ NIT Kurukshetra</p>
+          <h1>Hi, I'm <span>Jitesh Anand</span></h1>
+          <h2>SDE Intern Aspirant | Backend Developer | C/C++ Systems Explorer</h2>
+          <p class="hero-text">
+            I build practical software projects across backend development, operating systems basics,
+            and C++ simulation. Currently working on CampusConnect AI, a campus event platform,
+            while strengthening DSA and core CS fundamentals.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="assets/Jitesh_Anand_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+            <a class="btn secondary" href="#projects">See Projects</a>
+          </div>
+          <div class="quick-info" aria-label="Profile highlights">
+            <div><strong>8.3</strong><span>CGPA</span></div>
+            <div><strong>2028</strong><span>Graduation</span></div>
+            <div><strong>NDA</strong><span>Cleared</span></div>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Profile summary card">
+          <div class="card-glow"></div>
+          <p class="card-label">Currently focused on</p>
+          <ul>
+            <li>REST APIs, JWT Auth, MongoDB</li>
+            <li>C/C++ systems and OS basics</li>
+            <li>DSA for internship interviews</li>
+            <li>Simulation, PID, LQR, event queues</li>
+          </ul>
+          <div class="status-pill">Open to SDE / Backend Intern roles</div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-tag">About</p>
+          <h2>Engineering student building proof, not just profiles.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            I am a B.Tech Industrial Internet of Things student at NIT Kurukshetra, an interdisciplinary
+            program combining Computer Science and Electronics foundations. My work currently leans toward
+            backend engineering, software development, C/C++ systems, and project-based learning.
+          </p>
+          <p>
+            My main project is CampusConnect AI, where I am learning how real applications are structured
+            through authentication, protected routes, MongoDB models, Express controllers, deployment, and
+            frontend-backend integration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-section">
+      <div class="container">
+        <p class="section-tag">Skills</p>
+        <h2>Technical Stack</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <p>C++, C, JavaScript, Python</p>
+          </div>
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <p>Node.js, Express.js, REST APIs, JWT, bcrypt, Middleware, Error Handling</p>
+          </div>
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>React.js, HTML, CSS, Axios, Responsive UI</p>
+          </div>
+          <div class="skill-card">
+            <h3>Database & Tools</h3>
+            <p>MongoDB, Git, GitHub, VS Code, Postman, Render</p>
+          </div>
+          <div class="skill-card">
+            <h3>Core CS</h3>
+            <p>DSA, OOP, OS Basics, DBMS Basics, Computer Networks Basics</p>
+          </div>
+          <div class="skill-card">
+            <h3>Systems & Simulation</h3>
+            <p>C/C++ Systems, CMake, Event-Driven Simulation, PID, LQR</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-tag">Projects</p>
+        <h2>Featured Work</h2>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span>01</span>
+              <p>MERN Backend + Campus Platform</p>
+            </div>
+            <h3>CampusConnect AI</h3>
+            <p>
+              A campus-focused event management platform with authentication, protected routes,
+              event dashboards, role-based foundations, and deployed backend flow.
+            </p>
+            <ul>
+              <li>Implemented registration, login, logout, and auth-check APIs.</li>
+              <li>Used JWT middleware and bcrypt password hashing for secure authentication.</li>
+              <li>Designed MongoDB models and Express routes/controllers.</li>
+              <li>Connected frontend with backend using Axios and deployed backend on Render.</li>
+            </ul>
+            <div class="tech-list"><span>React</span><span>Node</span><span>Express</span><span>MongoDB</span><span>JWT</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span>02</span>
+              <p>C + Operating Systems</p>
+            </div>
+            <h3>Custom Shell in C</h3>
+            <p>
+              A mini command-line shell built to understand how terminal interpreters work internally.
+            </p>
+            <ul>
+              <li>Implemented shell loop to read, parse, and execute commands.</li>
+              <li>Added built-ins such as exit, echo, and type.</li>
+              <li>Used PATH lookup to find executable commands in the system environment.</li>
+            </ul>
+            <div class="tech-list"><span>C</span><span>OS</span><span>CLI</span><span>Process Flow</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span>03</span>
+              <p>C++ Simulation + Control Systems</p>
+            </div>
+            <h3>Inverted Pendulum Simulator Study</h3>
+            <p>
+              A C++ simulation study focused on physics, control systems, event-driven execution,
+              and controller performance analysis.
+            </p>
+            <ul>
+              <li>Analyzed pendulum state modeling: position, velocity, angle, angular velocity.</li>
+              <li>Studied PID and LQR controllers used for stabilization.</li>
+              <li>Explored event queue architecture with SEND, RECEIVE, and UPDATE events.</li>
+            </ul>
+            <div class="tech-list"><span>C++</span><span>CMake</span><span>Jupyter</span><span>PID</span><span>LQR</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt-section">
+      <div class="container edu-grid">
+        <div>
+          <p class="section-tag">Education</p>
+          <h2>Education & Achievements</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>National Institute of Technology, Kurukshetra</h3>
+            <p>B.Tech in Industrial Internet of Things, CSE + ECE Interdisciplinary Program</p>
+            <span>Expected Graduation: 2028 | CGPA: 8.3 / 10</span>
+          </div>
+          <div class="timeline-item">
+            <h3>School Academics</h3>
+            <p>Class XII: 90% | Class X: 92%</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Achievement</h3>
+            <p>Cleared NDA examination.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="section-tag">Contact</p>
+        <h2>Let's build something useful.</h2>
+        <p>
+          I am open to SDE Intern, Backend Intern, and Software Developer Intern opportunities.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:jiteshanand2207@gmail.com">jiteshanand2207@gmail.com</a>
+          <a href="tel:+919050619384">9050619384</a>
+          <a href="https://github.com/JiteshAnand2207" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/jitesh-anand-2b7841359" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jitesh Anand. Built with HTML, CSS, and a stubborn amount of curiosity.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
