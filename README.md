@@ -1,33 +1,22 @@
-# Jitesh Anand Portfolio Website
+# Jitesh Anand — Software Engineering Portfolio
 
-A clean, responsive portfolio website for SDE Intern / Backend Intern / Software Developer Intern applications.
+Personal portfolio focused on backend engineering, AI/LLM systems, full-stack development, evaluation tooling, and C/C++ systems work.
 
-## Sections
+## Current highlights
 
-- Hero and resume CTA
-- About
-- Skills
-- Featured projects
-- Education and achievements
-- Contact links
+- Due-Diligence Engine — deterministic Python core for AI-assisted diligence, evidence traceability, validation, regression testing, and evaluator handover
+- CampusConnect AI — MERN campus event-management platform with authentication, protected routes, APIs, MongoDB, and deployment
+- Realtime Chat App — MERN messaging application covering authentication, real-time state, responsive UI, and debugging
+- Custom Shell in C — command parsing, built-ins, PATH resolution, and OS fundamentals
 
-## How to run locally
+## Stack
 
-Open `index.html` directly in your browser.
+Python · C++ · C · JavaScript/TypeScript · React · Node.js · Express · MongoDB · REST APIs · JWT · Git/GitHub · pytest · Ruff · mypy · Render
 
-## How to deploy on GitHub Pages
+## Run locally
 
-1. Create a new repository, for example `portfolio`.
-2. Upload all files from this folder.
-3. Go to repository Settings.
-4. Open Pages.
-5. Select branch `main` and root folder `/`.
-6. Save.
+Open `index.html` directly in a browser, or serve the directory with any static HTTP server.
 
-Your site will be live after GitHub finishes deployment.
+## Live portfolio
 
-## What to update later
-
-- Add your real project repository links when ready.
-- Add portfolio domain if you buy one.
-- Replace resume PDF whenever you update your resume.
+Hosted through GitHub Pages from the `main` branch.
